@@ -4,11 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-telegram-bot-api": "^0.66.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behruzbek7/BIRINCHI-TELEGRAM-BOT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/behruzbek7/BIRINCHI-TELEGRAM-BOT/issues"
+  },
+  "homepage": "https://github.com/behruzbek7/BIRINCHI-TELEGRAM-BOT#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": []
 }
